@@ -1,0 +1,50 @@
+/* Deixar o fundo e a fonte agradável */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  background-color: #f5f5f5;
+}
+
+/* Container geral */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background-color: white;
+  padding: 15px 30px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+}
+
+/* Conteúdo */
+.content {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsivo: no celular, os cards ficam em coluna */
+@media (max-width: 600px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 80%;
+  }
+}

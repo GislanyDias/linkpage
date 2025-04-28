@@ -1,0 +1,31 @@
+.filter-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  .filter-container label {
+    margin-right: 10px;
+    color: #34495e;
+  }
+  
+  .filter-container select {
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid #bdc3c7;
+    background-color: white;
+    color: #2c3e50;
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .filter-container {
+      text-align: center;
+      margin: 20px auto;
+    }
+    
+    .filter-container select {
+      width: 80%;
+      margin-top: 10px;
+    }
+  }
