@@ -25,7 +25,12 @@ function App() {
       />
       <main className="content">
         {filteredSites.map((site, index) => (
-          <Card key={index} nome={site.nome} url={site.url} />
+          <Card
+          key={index}
+          nome={site.nome}
+          url={site.url}
+          imagem={site.image}
+        />
         ))}
       </main>
     </div>

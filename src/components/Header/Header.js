@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
-import logo from '../../assets/logo.png';
-import logo2 from '../../assets/logo2.png'
+import logo from '../../assets/prefeitura-campina/logo.png';
+import logo2 from '../../assets/secretaria-saude/logo2.png'
 
 
 function Header() {

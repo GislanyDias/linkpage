@@ -1,103 +1,132 @@
+import vejasaude from '../assets/logos/vejasaude.png';
+import govbr from '../assets/logos/govbr.png';
+import sus from '../assets/logos/sus.png';
+import datasus from '../assets/logos/datasus.png';
+import tabnet from '../assets/logos/tabnet.png';
+import sisab from '../assets/logos/sisab.png';
+import cnes from '../assets/logos/cnes.png';
+import sinan from '../assets/logos/sinan.png';
+import siasus from '../assets/logos/siasus.png';
+import sihsus from '../assets/logos/sihsus.png';
+import siops from '../assets/logos/siops.png';
+import rnds from '../assets/logos/rnds.png';
+import susdigital from '../assets/logos/susdigital.png';
+import prefeitura from '../assets/logos/prefeitura.png';
+import farmacia from '../assets/logos/farmacia.png';
+import medicos from '../assets/logos/medicos.png';
+import samu from '../assets/logos/samu.png';
+import esus from '../assets/logos/esus.png';
+
+
+
 const sites = [
     {
         nome: 'Veja+Saúde',
         url: 'https://vejamaissaude.vercel.app/',
-        categoria: 'UPA'
+        categoria: 'UPA',
+        image: vejasaude
     },
     {
       nome: 'Portal do Ministério da Saúde',
       url: 'https://www.gov.br/saude/pt-br',
-      categoria: 'Ministério'
+      categoria: 'Ministério',
+      image: govbr
     },
     {
       nome: 'Portal Sistema Único de Saúde (SUS)',
       url: 'https://www.gov.br/saude/pt-br/sus',
-      categoria: 'SUS'
+      categoria: 'SUS',
+      image: sus
     },
     {
       nome: 'DATASUS',
       url: 'https://datasus.saude.gov.br/',
-      categoria: 'SUS'
+      categoria: 'SUS',
+      image: datasus
     },
     {
       nome: 'TABNET – Informações de Saúde',
       url: 'https://datasus.saude.gov.br/informacoes-de-saude-tabnet/',
-      categoria: 'Administração'
+      categoria: 'Administração',
+      image: tabnet
     },
     {
       nome: 'SISAB – Atenção Básica',
       url: 'https://sisab.saude.gov.br/',
-      categoria: 'Atenção Básica'
+      categoria: 'Atenção Básica',
+      image: sisab
     },
     {
       nome: 'CNES – Cadastro Nacional',
       url: 'https://datasus.saude.gov.br/cnes-estabelecimentos/',
-      categoria: 'Cadastro'
+      categoria: 'Cadastro',
+      image: cnes
     },
     {
       nome: 'SINAN – Agravos de Notificação',
       url: 'https://portalsinan.saude.gov.br/',
-      categoria: 'Vigilância'
+      categoria: 'Vigilância',
+      image: sinan
     },
     {
       nome: 'e-SUS APS',
       url: 'https://sisaps.saude.gov.br/sistemas/esusaps/',
-      categoria: 'Atenção Primária'
+      categoria: 'Atenção Primária',
+      image: esus
     },
     {
       nome: 'SIA/SUS – Ambulatorial',
       url: 'https://datasus.saude.gov.br/acesso-a-informacao/producao-ambulatorial-sia-sus/',
-      categoria: 'Ambulatorial'
+      categoria: 'Ambulatorial',
+      image: siasus
     },
     {
       nome: 'SIH/SUS – Hospitalar',
       url: 'https://datasus.saude.gov.br/acesso-a-informacao/morbidade-hospitalar-do-sus-sih-sus/',
-      categoria: 'Hospitalar'
+      categoria: 'Hospitalar',
+      image: sihsus
     },
     {
       nome: 'SIOPS – Orçamentos em Saúde',
       url: 'https://www.gov.br/saude/pt-br/acesso-a-informacao/siops',
-      categoria: 'Administração'
+      categoria: 'Administração',
+      image: siops
     },
     {
       nome: 'RNDS – Rede Nacional de Dados',
       url: 'https://rnds.saude.gov.br/',
-      categoria: 'Administração'
+      categoria: 'Administração',
+      image: rnds
     },
     {
       nome: 'Meu SUS Digital',
       url: 'https://meususdigital.saude.gov.br/',
-      categoria: 'Cidadão'
+      categoria: 'Cidadão',
+      image: susdigital
     },
     {
-      nome: 'Regulação Municipal',
-      url: 'https://regulacao.cg.br',
-      categoria: 'Administração'
-    },
-    {
-      nome: 'Prontuário Eletrônico',
-      url: 'https://prontuario.cg.br',
-      categoria: 'Prontuário'
+      nome: 'Prefeitura Municial',
+      url: 'https://campinagrande.pb.gov.br/',
+      categoria: 'Administração',
+      image: prefeitura
     },
     {
       nome: 'Farmácia Popular',
-      url: 'https://farmaciapopular.cg.br',
-      categoria: 'Medicamentos'
+      url: 'https://www.gov.br/saude/pt-br/composicao/sectics/farmacia-popular',
+      categoria: 'Medicamentos',
+      image: farmacia
     },
     {
-      nome: 'Agendamento Online',
-      url: 'https://agendamento.cg.br',
-      categoria: 'Agendamento'
-    },
-    {
-      nome: 'Central de Leitos',
-      url: 'https://leitos.cg.br',
-      categoria: 'Leitos'
+      nome: 'Mais Médicos',
+      url: 'https://www.gov.br/saude/pt-br/composicao/saps/mais-medicos',
+      categoria: 'SUS',
+      image: medicos
     },
     {
       nome: 'SAMU 192',
-      url: 'https://samu.cg.br',
-      categoria: 'Emergência'
+      url: 'https://www.gov.br/saude/pt-br/composicao/saes/samu-192',
+      categoria: 'Emergência',
+      image: samu
     }
   ];
   

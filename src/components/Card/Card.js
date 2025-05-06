@@ -1,14 +1,15 @@
 import React from 'react';
 import './Card.css';
 
-function Card({ nome, url }) {
+function Card({ nome, url, imagem}) {
   const handleClick = () => {
     window.open(url, '_blank');
   };
 
   return (
     <div className="card" onClick={handleClick}>
-      {nome}
+       <img src={imagem} alt={nome} className="card-img" />
+       <p className="card-title">{nome}</p>
     </div>
   );
 }

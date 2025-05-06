@@ -19,12 +19,13 @@
   }
 
   .header {
-    height: 2rem;
-    gap: 4px;
+    height: 5rem;
+    gap: 2px;
     justify-content: center;
+    padding: 8px 15px;
   }
 
   .logo{
-    height: 35px;
+    height: 45px;
   }
 }
